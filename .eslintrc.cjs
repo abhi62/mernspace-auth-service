@@ -12,5 +12,8 @@ module.exports = {
     },
     plugins: ['@typescript-eslint'],
     root: true,
-    rules: {},
+    rules: {
+        '@typescript-eslint/no-misused-promises': 'off',
+        '@typescript-eslint/require-await': 'off',
+    },
 };
