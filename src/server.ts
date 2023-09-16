@@ -1,5 +1,9 @@
 function login(username: string): string {
-    return username;
+    const user = {
+        name: 'asdfuvcas',
+    };
+    const nm = user.name;
+    return username + nm;
 }
 
 login('abhishek');
